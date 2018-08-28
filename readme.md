@@ -18,7 +18,7 @@ bower install
 ```
 
 ```bash
-npm installeslint-plugin-react
+npm install eslint-plugin-react
 ```
 ```bash
 npm install babel-eslint
