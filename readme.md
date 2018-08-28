@@ -17,6 +17,15 @@ To install bower go to project directory
 bower install
 ```
 
+```bash
+npm installeslint-plugin-react
+```
+```bash
+npm install babel-eslint
+```
+
+> and if you got issue related to eslint got to C:\Users\[your-username]  and delete .eslintrc 
+
 To run project for developing:
 
 ```bash
