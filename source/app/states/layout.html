@@ -1,15 +1,21 @@
 <header id="header">
-    <nav class="navbar navbar-static-top navbar-inverse">
+    <div class="navbar navbar-static-top navbar-inverse">
         <div class=" container-fluid">
-            <div class="col-xs-6 navbar-header">
-                EN
+            <div class="col-xs-6 ">
+                    <div class="dropdown">
+                            <a class="lang-switcher dropdown-toggle" type="button" data-toggle="dropdown">EN<i class="fa fa-chevron-down" aria-hidden="true"></i>
+                            <ul class="dropdown-menu">
+                              <li><a href="#">AR</a></li>
+                             
+                            </ul>
+                          </div>
             </div>
             <span data-ng-click="root.sayNo()" class="col-xs-6 nopadding">
                 <i class="  fa fa-bars pull-right" aria-hidden="true"></i>
             </span>
 
         </div>
-    </nav>
+    </div>
 </header>
 <main id="main" data-ui-view></main>
 <footer class="footer">
