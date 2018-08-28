@@ -1,0 +1,16 @@
+{
+  "generator-angular-dft": {
+    "user": "Mina",
+    "appName": "omnia-task",
+    "appVersion": "0.0.1",
+    "cssFramework": null,
+    "modules": {
+      "root": "(oapp)"
+    },
+    "instalation": "complete",
+    "preprocessors": {
+      "css": "less",
+      "js": null
+    }
+  }
+}
