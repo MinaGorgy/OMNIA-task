@@ -48,14 +48,28 @@
     </div>
 </section>
 <section id="news" class="container news-section">
-    <div class="col-xs-6 latest-news-title nopadding">
-Latest News
+    <div class="col-xs-6 latest-news-title ">
+        Latest News
     </div>
-<div class="col-xs-6 pull-right">
-    <div class="searchboxwrapper nopadding pull-right">
-        <input class="searchbox" ng-model="searchText" type="text" value="" name="s" placeholder="&#xf002 SEARCH NEWS" id="s">
-        
+    <div class="col-xs-6 pull-right">
+        <div class="searchboxwrapper nopadding pull-right">
+            <input class="searchbox" ng-model="searchText" type="text" value="" name="s" placeholder="&#xf002 SEARCH NEWS" id="s">
+
         </div>
-</div>
+    </div>
 </section>
 
+<section class="container">
+<article class="article col-md-4 col-xs-1" ng-repeat="item in articles | filter:searchText">
+    <div class="card">
+        <img src="{{item.urlToImage}}" alt="Avatar" style="width:100%">
+        <div class="card-container">
+            <span>{{item.publishedAt| date:'medium'}}</span>
+            <h4>
+                <b>{{item.title}}</b>
+            </h4>
+            <p>{{item.author}}</p>
+        </div>
+    </div>
+</article>
+</section>
