@@ -11,7 +11,7 @@ To install gulp
 npm install -g gulp
 ```
 
-To install bower go to prject dirctory
+To install bower go to project directory
 
 ```bash
 bower install
