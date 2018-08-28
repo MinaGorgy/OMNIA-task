@@ -1,6 +1,21 @@
-# README OMNIA Front-end Task admin #
+# README OMNIA Front-end Task #
 
-#### We assume you have pre-installed node.js with npm, Gulp, Bower.
+#### I assume that you have pre-installed node.js with npm, Gulp, Bower.
+To install bower
+```bash
+npm install -g bower
+```
+To install gulp
+
+```bash
+npm install -g gulp
+```
+
+To install bower go to prject dirctory
+
+```bash
+bower install
+```
 
 To run project for developing:
 
