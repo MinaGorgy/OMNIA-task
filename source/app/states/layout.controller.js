@@ -12,7 +12,7 @@ angular
         var root = $scope.root = {
             user: user,
             sayNo: function ( state ) {
-                toastr.error('Sorry but this state not specified by scaffolding.', state);
+                toastr.error('Sorry but this not implemented.');
             }
         };
 

@@ -1,12 +1,25 @@
 <header id="header">
     <nav class="navbar navbar-static-top navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header">
+        <div class=" container-fluid">
+            <div class="col-xs-6 navbar-header">
                 EN
             </div>
-            <i class="fa fa-bars pull-right" aria-hidden="true"></i>
+            <span data-ng-click="root.sayNo()" class="col-xs-6 nopadding">
+                <i class="  fa fa-bars pull-right" aria-hidden="true"></i>
+            </span>
+
         </div>
     </nav>
 </header>
-
 <main id="main" data-ui-view></main>
+<footer class="footer">
+    <div class="">
+        <div class="col-xs-6">
+         <span>© 2018 News. All rights reserved.</span>   
+        </div>
+        <div class="col-xs-6 text-right footer-links">
+           <span data-ng-click="root.sayNo()"> Privacy Policy | Copyright | Terms & Conditions | Contact Us</span>
+        </div>
+    </div>
+
+</footer>

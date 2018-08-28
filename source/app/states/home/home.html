@@ -29,7 +29,7 @@
         </div>
     </div>
 
-    <div class="home-text col-xs-4">
+    <div class="home-text col-xs-12 col-md-4" >
         <div class="main-txt">
             <strong>
                 <span>Welcome to more connected world</span>
@@ -59,8 +59,8 @@
     </div>
 </section>
 
-<section class="container">
-<article class="article col-md-4 col-xs-1" ng-repeat="item in articles | filter:searchText">
+<section class="container article-section">
+<article class="article col-md-4 col-xs-12" ng-repeat="item in articles | filter:searchText">
     <div class="card">
         <img src="{{item.urlToImage}}" alt="Avatar" style="width:100%">
         <div class="card-container">
