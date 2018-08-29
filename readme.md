@@ -29,25 +29,13 @@ npm install babel-eslint
 
 > and if you got issue related to eslint got to C:\Users\[your-username]  and delete .eslintrc 
 
-To run project for developing:
+To run project:
 
-```bash
-gulp serve-dev
-```
-
-To run build project for production:
-
-```bash
-gulp build-prod
-```
-
-To use node environment you may write custom config (environment/fileName.json) and specified node environment (file name) then run:
-> To run project for developing with custom config 
 ```bash
 gulp serve
 ```
+or
 
-> To run run build project for production with custom config 
 ```bash
-gulp build
+gulp serve-dev
 ```
